@@ -54,6 +54,9 @@
             (craneLib.fileset.commonCargoSources unfilteredRoot)
             # Include all the .sql migrations as well
             # ./migrations
+
+            # assets folder so rust-embed can see it
+            ./assets
           ];
         };
 
